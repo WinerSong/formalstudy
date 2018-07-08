@@ -1,0 +1,11 @@
+.father{
+  width:400px;
+  height:400px;
+  background:pink;
+  margin:0 auto;
+  color:aqua;
+}
+.son{
+  display:table-cell;
+  vertical-align:middle;
+}

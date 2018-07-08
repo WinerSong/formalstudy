@@ -1,0 +1,60 @@
+body{
+padding:0;
+margin:0;
+}
+.header{
+  height:100px;
+  background:red;
+}
+.header .head{
+  width:800px;
+  height:100px;
+  margin:0 auto;
+  background: aqua;
+}
+.content{
+  height:600px;
+  background:yellow;
+}
+.footer{
+  height:100px;
+  background: green;
+}
+.content,.footer{
+  width:800px;
+  margin:0 auto;
+}
+.content-left{
+  width:200px;
+  height:600px;
+  float: left;
+  background:black;
+}
+/* .content-middle{
+  margin:0 310px 0 210px;
+  background:maroon;
+} */
+.content-right{
+  width:590px;
+  /* 为了露出缝隙。其实总宽度为800px */
+  height:600px;
+  float:right;
+  background:blue;
+}
+/* .content-left,.content-middle,.content-right{
+  height:600px;
+} */
+.sub-left{
+  width:200px;
+  height:600px;
+  float:left;
+  background:plum;
+
+}
+.sub-right{
+  width:380px;
+  /* 为了露出缝隙。其实总宽度为590px */
+  height:600px;
+  float:right;
+  background:grey;
+}

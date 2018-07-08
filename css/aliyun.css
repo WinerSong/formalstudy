@@ -13,7 +13,7 @@
 }
 .topbar-content-logo img{
   width: 80px;
-  height: 23.5px;
+  height: 23.578px;
 }
 .topbar-content-search{
   float: right;
@@ -27,13 +27,35 @@
 .topbar-content-nav li{
   list-style: none;
   display: inline-block;
+  margin: 5px;
 }
-
 .navbar{
   clear: both;
   height: 60px;
 }
+.navbar-content-nav li{
+  list-style:none;
+  display:inline-block;
+  margin: 10px;
+}
+.navbar-content-signup{
+  background-size:auto;
+  background-color:rgb(0,193,222);
+  float:right;
+  width:56px;
+  height:77px;
+  font-size:14px;
+  line-height:73px;
+  padding-left:32px;
+  padding-right:32px;
+  position:relative;
+  top:-73px;
+  .navbar-content-signup:link{
+    color:blue
+  }
 
+
+}
 .content{
   background-color: blue;
 }
